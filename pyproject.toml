@@ -42,11 +42,11 @@ classifiers = [
 [project.urls]
 Homepage = "https://ucl-pond.github.io/kde_ebm"
 
-[tool.setuptools]
-packages = ["kde_ebm"]
+# [tool.setuptools]
+# packages = ["kde_ebm"]
 
-# [tool.setuptools.packages.find]
-# where = ["."]
+[tool.setuptools.packages.find]
+where = ["."]
 
 ### Include synthetic data
 [tool.setuptools.package-data]
